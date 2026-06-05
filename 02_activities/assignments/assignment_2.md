@@ -11,22 +11,72 @@
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
       Your answer...
+GOOD DATA VISUALIZATION:
+Hans Rosling's Gapminder Bubble Chart: "Wealth and Health of Nations" available at: 
+https://www.gapminder.org/tools/#$chart-type=bubbles&url=v2
 
+Why I Classified This Visualization as Good:
 
+This visualization effectively communicates the relationship between income, life expectancy, population size, and geographic region across countries over time. I classified it as a good visualization for several reasons.
 
+First, it uses appropriate visual encoding. Position on the x- and y-axes represents income and life expectancy, which are quantitative variables that can be accurately compared. According to Munzner (2014), position is one of the most effective visual channels for communicating numerical information.
 
+Second, the visualization tells a compelling story through animation. Users can observe how countries change over time, making trends and patterns easy to identify. Rather than presenting static data, the animation helps viewers understand global development trajectories and relationships between wealth and health.
 
+Third, the visualization follows principles of clarity and accessibility. The chart includes clear labels, a legend, meaningful color coding for geographic regions, and proportional bubble sizes representing population. These design choices reduce cognitive load and improve interpretability.
 
+Finally, the visualization encourages exploration and user engagement. Users can select individual countries and examine specific trends, making the data more understandable to a broad audience.
+
+BAD DATA VISUALIZATION
+
+Data Visualization Catalogue. Pie chart [Internet]. Available at: https://datavizcatalogue.com/methods/pie_chart.html
+
+3D Pie Chart Showing Market Share by Product Category
+
+Why I Classified This Visualization as Bad:
+
+I classified this visualization as poor because it violates several core principles of effective data visualization.
+
+First, the use of a 3D pie chart distorts perception. The three-dimensional perspective makes slices closer to the viewer appear larger than they actually are. This violates the principle of graphical integrity described by Tufte (2001), where visual representation should accurately reflect the underlying data.
+
+Second, pie charts are already difficult for comparing similar values because humans are less effective at comparing angles than positions along a common scale. Adding a third dimension further reduces accuracy and makes interpretation more difficult.
+
+Third, excessive visual decoration, sometimes referred to as "chart junk," distracts from the data. Shadows, gradients, and 3D effects add visual complexity without providing additional information. According to Tufte (2001), unnecessary design elements reduce the data-to-ink ratio and interfere with communication.
+
+Fourth, labels often overlap or require readers to move between the chart and legend repeatedly. This increases cognitive effort and reduces readability.
+
+Finally, the visualization fails to support meaningful comparisons among categories. A simple bar chart would allow viewers to compare values much more accurately and efficiently.
 
       ```
     - How could this data visualization have been improved?  
       ```
       Your answer...
+      How to further improve the good data visualization: 
+Although highly effective, several improvements could be made.
 
+First, accessibility could be enhanced by providing color palettes optimized for individuals with color vision deficiencies. This would improve equitable access to information.
 
+Second, additional annotations could be added to highlight major historical events, such as economic crises or pandemics, that influence observed trends.
 
+Third, users could benefit from simplified introductory guidance explaining how to interpret bubble size, movement, and color coding before interacting with the visualization.
 
+How to improve the bad data visualization: 
+Several improvements would substantially increase the effectiveness of this bad visualization.
 
+First, replace the 3D pie chart with a horizontal or vertical bar chart. Bar charts use aligned positions along a common scale, which improves comparison accuracy.
+
+Second, remove decorative elements such as shadows, gradients, and perspective effects. Simplifying the design would focus attention on the data rather than the presentation.
+
+Third, directly label values on the chart to reduce the need for a separate legend and improve readability.
+
+Fourth, sort categories in descending order. Ordering values helps viewers identify the largest and smallest categories quickly and supports pattern recognition.
+
+By implementing these changes, the visualization would become more accurate, accessible, and easier to interpret.
+
+Suggested References:
+1. Munzner T. Visualization Analysis and Design. Boca Raton (FL): CRC Press; 2014.
+2. Tufte ER. The Visual Display of Quantitative Information. 2nd ed. Cheshire (CT): Graphics Press; 2001.
+3. Few S. Show Me the Numbers: Designing Tables and Graphs to Enlighten. Oakland (CA): Analytics Press; 2012.
 
       
       ```
