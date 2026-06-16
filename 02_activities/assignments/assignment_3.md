@@ -6,24 +6,33 @@
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
-- For each visualization, describe and justify: 
+- For each visualization, describe and justify: LINK USED: https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/
     > What software did you use to create your data visualization?
+    Python (Pandas and Matplotlib)
 
     > Who is your intended audience? 
-    
+    The intended audience includes city planners, transportation policymakers, public health professionals, and Toronto residents interested in sustainable transportation.
+
     > What information or message are you trying to convey with your visualization? 
-    
+    The visualization demonstrates how Bike Share Toronto ridership changes over time, highlights monthly and seasonal trends. Increased ridership during warmer months, trending upward from February towards March. This trend or pattern may indicate opportunities to expand cycling infrastructure and transportation services during warmer months.
+
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-    
+    Several data visualization principles were applied. A line chart was selected because it effectively displays trends over time. The chart includes a descriptive title, labeled axes, and appropriate scaling. Unnecessary visual elements were removed to reduce clutter and improve readability.
+
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    The visualization was generated using Python lines of code (script) implemented in Visual Studio Code that can be executed on any computer with the required libraries installed. All data wrangling, aggregation, and visualization steps are documented in the accompanying Python script, ensuring reproducibility.
+
     > How did you ensure that your data visualization is accessible?  
-    
+    Accessibility was improved by using readable fonts, clear axis labels, and descriptive titles. The chart avoids relying solely on color to communicate information.
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+    The findings may be relevant to cyclists, commuters, transportation planners, environmental organizations, and Toronto residents. Decisions based on the visualization could influence transportation investments and cycling infrastructure.
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+    The visualization focuses on ride counts and time period (months) because these variables directly support the study objective. Other variables that were not relevant to ridership trends were excluded to reduce complexity.
+
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Considerable work occurred behind the scenes, including locating the dataset, transforming dates, aggregating monthly totals, validating results, and writing reproducible Python code. This hidden labour is often overlooked but is essential to creating accurate and meaningful visualizations.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
@@ -51,12 +60,12 @@
 * Submission Due Date: `23:59 -  2026-06-16`
 * The branch name for your repo should be: `assignment-3`
 * What to submit for this assignment:
-    * A folder/directory containing:
-        * Two distinct data visualizations (for example, PNGs, PDFs, or screenshots)
-        * Two Markdown files answering all questions for each visualization (including a link to your dataset in both files)
-        * One Python file contains the complete code and visualization, and another file (with or without code) contains the visualization.
+* A folder/directory containing:
+* Two distinct data visualizations (for example, PNGs, PDFs, or screenshots)
+* Two Markdown files answering all questions for each visualization (including a link to your dataset in both files)
+* One Python file contains the complete code and visualization, and another file (with or without code) contains the visualization.
 * What the pull request link should look like for this assignment: `https://github.com/<your_github_username>/visualization/pull/<pr_id>`
-    * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
+* Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
 - [ ] Create a branch called `assignment-3`.
